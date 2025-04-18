@@ -27,17 +27,17 @@ Usage
 Prepare your dataset in the data/ folder following the ICEWS14 format
 
 Train the model:
-
 python main.py
+
 Key configuration options in config.py:
 
-time_windows: Number of temporal windows
+  time_windows: Number of temporal windows
 
-hidden_dim: Embedding dimension
+  hidden_dim: Embedding dimension
 
-time_horizon: Prediction time horizon
+  time_horizon: Prediction time horizon
 
-tau: Temperature parameter for contrastive loss
+  tau: Temperature parameter for contrastive loss
 
 stagen/
 ├── config.py       # Configuration settings
