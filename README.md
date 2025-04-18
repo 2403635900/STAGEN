@@ -33,7 +33,7 @@ STAGEN is a novel framework for temporal knowledge graph reasoning that combines
 
 **`stagen/` directory structure:**
 
-stagen/
+* stagen/
 ├── config.py       # Configuration settings
 ├── model.py        # Core model architecture
 ├── trainer.py      # Training logic
