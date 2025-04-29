@@ -8,9 +8,9 @@ STAGEN is a novel framework for temporal knowledge graph reasoning that combines
 
 **Features:**
 
-* **Dynamic Relation-Aware Graph Convolution Network Layer**
-* **Multi-Scale Spatio-Temporal Decoupled ODE Module** 
-* **Causal Contrastive Learning** 
+* **Dynamic Relation-Aware Graph Convolution Network Layer:** We propose an MST-ODE module that independently models local structural variations and global temporal evolution. This decoupling facilitates a granular representation of spatio-temporal evolution, enabling the model to capture nuanced, scale-dependent dynamics. The multi-scale nature of the module allows for the integration of information from various spatial and temporal resolutions, thereby enhancing the model's capacity to represent intricate spatio-temporal dependencies.
+* **Multi-Scale Spatio-Temporal Decoupled ODE Module:** We develop a DRGCN layer that incorporates a spatio-temporal attention mechanism, enabling the model to adaptively modulate the influence of different relationship types and temporal stamps. This dynamic adjustment enhances the expressive power of graph convolution, allowing for more nuanced and context-aware information propagation.
+* **Causal Contrastive Learning** Leveraging causal intervention principles \cite{zhao2021causal}, we introduce a CCL strategy to mitigate the impact of spurious correlations and reinforce temporal reasoning. By explicitly intervening on potential confounding factors, we enhance the model's ability to discern genuine causal relationships, thereby improving prediction accuracy and robustness.
 
 **Requirements:**
 
