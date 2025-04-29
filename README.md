@@ -3,24 +3,8 @@
 STAGEN is a novel framework for temporal knowledge graph reasoning that combines dynamic graph attention networks with neural ordinary differential equations to model the continuous evolution of entity and relation representations over time.
 
 **Abstract:**
- Temporal knowledge graph reasoning faces critical challenges in
- modeling complex spatio-temporal interactions and resisting tem
-poral distribution shifts. We propose STAGEN (Spatio-Temporal
- Augmented Graph Evolution Network), a novel architecture that
- innovatively integrates multiscale ODEs with causal contrastive
- learning. First, we decouple the dynamics modeling into spatial
- topology evolution and temporal feature propagation through a
- dual-stream ODE structure, enabling precise capture of both lo
-cal structural changes and global pattern transitions. Second, we
- design a dynamic relation-aware graph convolutional layer com
-bined with multi-head attention to effectively model time-varying
- relation dependencies. Third, we introduce a causal intervention
- mechanism in counterfactual contrastive learning to enhance the
- model’s robustness against temporal perturbations. Experiments
- on three benchmark datasets demonstrate state-of-the-art perfor
-manceofourmodel,withanMRRimprovementof11.03%compared
- to baseline methods.
-
+ Temporal knowledge graph reasoning faces critical challenges in modeling complex spatio-temporal interactions and resisting temporal distribution shifts. We propose STAGEN (Spatio-Temporal Augmented Graph Evolution Network), a novel architecture that innovatively integrates multiscale ODEs with causal contrastive learning. First, we decouple the dynamics modeling into spatial topology evolution and temporal feature propagation through a dual-stream ODE structure, enabling precise capture of both local structural changes and global pattern transitions. Second, we design a dynamic relation-aware graph convolutional layer combined with multi-head attention to effectively model time-varying relation dependencies. Third, we introduce a causal intervention mechanism in counterfactual contrastive learning to enhance the model’s robustness against temporal perturbations. Experiments on three benchmark datasets demonstrate state-of-the-art performance of our model,with an MRR improvement of 11.03% compared to baseline methods.
+![image](https://github.com/CunchaoZ/CyGNet/blob/master/cygnet.png)
 **Features:**
 
 * **Dynamic Graph Attention:** Captures structural dependencies with relation-aware attention mechanisms
