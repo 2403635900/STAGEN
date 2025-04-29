@@ -40,7 +40,7 @@ There are five datasets (from [RE-NET](https://github.com/INK-USC/RE-Net)): ICEW
 
 **Usage:**
 
-1.  Prepare your dataset in the `data/` folder following the ICEWS14 format.
+1.  Prepare your dataset in the `data/` folder.
 2.  Train the model:
     ```bash
     python main.py
@@ -55,17 +55,17 @@ There are five datasets (from [RE-NET](https://github.com/INK-USC/RE-Net)): ICEW
 
 **`stagen/` directory structure:**
 
-├── config.py       # Configuration settings
+├── model/config.py       # Configuration settings
 
-├── model.py        # Core model architecture
+├── model/model.py        # Core model architecture
 
-├── trainer.py      # Training logic
+├── model/trainer.py      # Training logic
 
-├── evaluate.py     # Evaluation metrics
+├── model/evaluate.py     # Evaluation metrics
 
-├── util.py         # Data utilities
+├── model/util.py         # Data utilities
 
-├── main.py         # Main entry point
+├── model/main.py         # Main entry point
 
 └── data/           # Dataset folder
 
