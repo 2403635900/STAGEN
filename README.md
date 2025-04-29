@@ -1,6 +1,7 @@
 # SIGMOD26-STAGEN: Decoupled Causal Reasoning in Temporal Knowledge Graphs
 
 STAGEN is a novel framework for temporal knowledge graph reasoning that combines dynamic graph attention networks with neural ordinary differential equations to model the continuous evolution of entity and relation representations over time.
+
 **Abstract:**
  Temporal knowledge graph reasoning faces critical challenges in
  modeling complex spatio-temporal interactions and resisting tem
