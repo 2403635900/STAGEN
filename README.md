@@ -8,10 +8,9 @@ STAGEN is a novel framework for temporal knowledge graph reasoning that combines
 
 **Features:**
 
-* **Dynamic Graph Attention:** Captures structural dependencies with relation-aware attention mechanisms
-* **Neural ODEs:** Models continuous temporal dynamics of entity embeddings
-* **Temporal Negative Sampling:** Generates temporally valid negative examples
-* **Causal Contrastive Learning:** Enhances temporal discrimination of embeddings
+* **Dynamic Relation-Aware Graph Convolution Network Layer**
+* **Multi-Scale Spatio-Temporal Decoupled ODE Module** 
+* **Causal Contrastive Learning** 
 
 **Requirements:**
 
