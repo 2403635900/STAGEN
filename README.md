@@ -16,6 +16,9 @@ STAGEN is a novel framework for temporal knowledge graph reasoning that combines
 * torch-scatter
 * torchdiffeq
 
+## Dataset
+There are five datasets (from [RE-NET](https://github.com/INK-USC/RE-Net)): ICEWS18, ICEWS14, GDELT, WIKI, and YAGO. Times of test set should be larger than times of train and valid sets. (Times of valid set also should be larger than times of train set.) Each data folder has 'stat.txt', 'train.txt', 'valid.txt', 'test.txt'.
+
 **Usage:**
 
 1.  Prepare your dataset in the `data/` folder following the ICEWS14 format.
